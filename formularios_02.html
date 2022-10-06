@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+	<title>Formulários 02</title>
+	<meta charset="utf-8">
+
+</head>
+
+<body style="font-size: 25px; margin: 30px;">
+
+	<h2>Formulário</h2>
+
+	<form action="envio.html" meth55="POST">
+		<fieldset style="width: 50%;">
+			<legend>Preencha os seus dados</legend>
+			<label>Nome:</label>
+			<input type="text" name="nome"/>
+			<label>Sobrenome:</label>
+			<input type="text" name="sobrenome"/><br/><br/>
+			<label>Celular:</label>
+			<input type="text" name="celular"/>
+			<label>E-mail:</label>
+			<input type="text" name="e-mail"/><br/><br/>
+			<label>Senha:</label>
+			<input type="password" name="senha"/><br/><br/>
+			<label>Profissão:</label>
+			<select>
+				<option value="">Selecione</option>
+				<option value="">Engenheiro</option>
+				<option value="">Técnico</option>
+				<option value="">Médico</option>
+				<option value="">Outros</option>
+			</select><br/><br/>
+			<label>Comentário:</label><br/>
+			<textarea cols="70" rows="5">Digite sua mensagem aqui*</textarea><br/><br/>
+			<input type="submit" value="Enviar"/>
+			<input type="reset" value="Apagar"/>
+		</fieldset>
+	</form>
+
+</body>
+</html>
